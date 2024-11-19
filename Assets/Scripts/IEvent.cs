@@ -1,4 +1,4 @@
-namespace sb.template
+namespace sb.eventbus
 {
     public interface IEvent
     {
