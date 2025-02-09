@@ -1,12 +1,16 @@
 Unity Event Bus System
+
 This repository contains a simple and flexible Event Bus system developed for use in Unity projects. This system allows different game components to react to events without knowing about each other, making your code modular, flexible, and scalable.
 
 Features
+
 Generic Event System: Works with any type of event, so you can use a single event bus for different types of events.
 Dynamic Listeners: You can add and remove listeners dynamically. Listeners can be added and removed at runtime.
 Decoupled Systems: Systems can react to events without knowing about each other, reducing dependencies and improving modularity.
 Efficient Communication: Delegates and generics are used to provide efficient and fast communication.
+
 Usage
+
 1. Define an Event Class
 First, you need to create classes that represent the events you want to listen to. These classes should implement the IEvent interface.
 
